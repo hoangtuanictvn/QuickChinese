@@ -20,8 +20,9 @@
     </radialGradient>
   </defs>
 
-  <!-- Rounded-square base (matches iOS icon corner radius roughly) -->
-  <rect x="0" y="0" width="1024" height="1024" rx="230" ry="230" fill="url(#bg)"/>
+  <!-- Full square base — iOS applies its own icon mask.
+       App Store rejects icons with alpha, so no rounded corners here. -->
+  <rect x="0" y="0" width="1024" height="1024" fill="url(#bg)"/>
 
   <!-- Subtle Chinese cloud pattern watermark, upper right -->
   <g opacity="0.09" fill="#FFFFFF">
