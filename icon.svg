@@ -3,8 +3,8 @@
   <!-- Warm Chinese-seal-red gradient background -->
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%"  stop-color="#E63A2E"/>
-      <stop offset="100%" stop-color="#B31B10"/>
+      <stop offset="0%"  stop-color="#D07566"/>
+      <stop offset="100%" stop-color="#A24E42"/>
     </linearGradient>
     <linearGradient id="fur" x1="0" y1="0" x2="0" y2="1">
       <stop offset="0%"  stop-color="#FFFFFF"/>
@@ -88,7 +88,7 @@
         stroke="#2A1A16" stroke-width="7" stroke-linecap="round" fill="none"/>
 
   <!-- Speed streak lines behind ears — evokes "Quick" -->
-  <g stroke="#FFFFFF" stroke-width="14" stroke-linecap="round" opacity="0.55" fill="none">
+  <g stroke="#FFFFFF" stroke-width="14" stroke-linecap="round" opacity="0.4" fill="none">
     <path d="M 130 380 L 260 380"/>
     <path d="M 130 460 L 240 460"/>
     <path d="M 130 540 L 220 540"/>
