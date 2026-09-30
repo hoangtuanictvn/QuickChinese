@@ -1,4 +1,4 @@
-# Tiktense — Web (marketing + policy)
+# Rabese — Web (marketing + policy)
 
 Static site with landing, support, privacy policy, terms of service.
 Bilingual VI/EN. Zero JS. Dark-mode aware CSS.
@@ -32,14 +32,14 @@ web/
    cd web
    vercel
    ```
-   Follow prompts. Pick a project name (e.g. `tiktense`), scope (personal or team).
-   Vercel gives you a URL like `https://tiktense.vercel.app`.
+   Follow prompts. Pick a project name (e.g. `rabese`), scope (personal or team).
+   Vercel gives you a URL like `https://rabese.vercel.app`.
 
 ### Custom domain (optional)
 
-If you own `tiktense.app`:
+If you own `rabese.app`:
 ```
-vercel domains add tiktense.app
+vercel domains add rabese.app
 ```
 Then point DNS `CNAME` → `cname.vercel-dns.com`.
 
@@ -60,12 +60,12 @@ Open http://localhost:8000
 
 ## Before shipping to App Store
 
-1. Replace `hello@tiktense.app` throughout with your real support email.
+1. Replace `hello@rabese.app` throughout with your real support email.
 2. Deploy to Vercel to get a public URL.
 3. Fill in App Store Connect:
-   - Privacy Policy URL: `https://<your-vercel>.vercel.app/privacy`
-   - Support URL:        `https://<your-vercel>.vercel.app/support`
-   - Marketing URL:      `https://<your-vercel>.vercel.app/`
+   - Privacy Policy URL: `https://rabese.vercel.app/privacy`
+   - Support URL:        `https://rabese.vercel.app/support`
+   - Marketing URL:      `https://rabese.vercel.app/`
 
 ## Notes
 
